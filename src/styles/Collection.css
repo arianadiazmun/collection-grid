@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ysabeau+SC:wght@300;400&display=swap');
+
+.collection-container {
+ display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+ }
+
+ .collection-panel ,
+.collection-panel img{
+    border-radius: 13px;
+    }
+
+.collection-panel {
+    width: 27%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(166, 198, 243);
+    border: 2px solid plum;
+    
+
+}
+
+.collection-panel img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+h1,h2, p{
+    font-family: 'Ysabeau SC';
+}
